@@ -16,6 +16,9 @@
 .tovar {
     text-align: center;
 }
+.tovar h2 {
+    color: white;
+}
 .tovar img {
     width: 350px;
 }
