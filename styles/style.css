@@ -5,8 +5,6 @@
 }
 .tovar_container {
     margin-top: 10px;
-    font-weight: 700;
-    /*font-family: 'Open Sans', sans-serif; */
     padding-right: 15px;
     padding-left: 15px;
     display: grid;
@@ -18,6 +16,7 @@
 }
 .tovar h2 {
     color: white;
+    font-weight: 700;
 }
 .tovar img {
     width: 350px;
@@ -29,9 +28,8 @@
     border-radius: 7px;
     background-color: rgb(255, 166, 0);
     color: white;
-    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 5px;
     margin-bottom: 25px;
     cursor: pointer;
