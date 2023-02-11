@@ -12,16 +12,23 @@
     grid-template-columns: 370px 370px 370px;
 }
 .tovar {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    align-items: flex-start;
 }
 .tovar h2 {
     color: var(--tg-theme-text-color);
     font-weight: 700;
+    width: 350px;
+    text-align: center;
 }
 .tovar img {
     width: 350px;
 }
-.tovar_container button {
+.button_cart {
+    text-align: center;
     width: 350px;
     height: 50px;
     border: 0;
@@ -31,17 +38,34 @@
     font-size: 25px;
     font-weight: 600;
     margin-top: 5px;
-    margin-bottom: 25px;
     cursor: pointer;
     transition: all;
     transition-property: all;
-    transition-duration: 0.15s;
+    transition-duration: 0.2s;
+    z-index: 1;
 }
-.tovar_container button:hover {
-   background-color: rgb(216, 140, 0);
+.button_cart:focus {
+    outline: 0;
 }
-.tovar_container button:active {
-    background-color: rgb(182, 118, 0);
+.button_cart_plus {
+    width: 280px;
+    margin-left: 70px;
+    background-color: rgb(53, 173, 29);
+}
+.button_cart_m {
+    text-align: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: rgb(243, 81, 41);
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 0;
+    margin-left: 1px;
+    cursor: pointer;
 }
 .table_container {
     width: 100%;
@@ -56,10 +80,21 @@
     .tovar img {
         width: 250px;
     }
-    .tovar_container button {
+    .button_cart {
         width: 250px;
         height: 35px;
         font-size: 20px;
+    }
+    .button_cart_m {
+        width: 35px;
+        height: 35px;
+    }
+    .button_cart_plus {
+        width: 195px;
+        margin-left: 55px;
+    }
+    .tovar h2 {
+        width: 250px;
     }
 }
 @media (max-width: 900px) {
@@ -82,14 +117,25 @@
     .tovar img {
         width: 230px;
     }
-    .tovar_container button {
+    .button_cart {
         width: 230px;
         height: 28px;
         font-size: 18px;
     }
+    .button_cart_m {
+        width: 28px;
+        height: 28px;
+    }
+    .button_cart_plus {
+        width: 190px;
+        margin-left: 40px;
+    }
     .tovar_container {
         grid-template-columns: 250px 250px;
         padding: 0px;
+    }
+    .tovar h2 {
+        width: 230px;
     }
 }
 @media (max-width: 500px) {
@@ -100,13 +146,17 @@
         grid-template-columns: 190px 190px;
         padding: 0px;
     }
-    .tovar_container button {
+    .button_cart {
         width: 180px;
-        height: 28px;
         font-size: 14px;
+    }
+    .button_cart_plus {
+        width: 140px;
+        margin-left: 40px;
     }
     .tovar h2 {
         font-size: 13px;
+        width: 180px;
     }
 }
 @media (max-width: 380px) {
@@ -117,12 +167,16 @@
         grid-template-columns: 170px 170px;
         padding: 0px;
     }
-    .tovar_container button {
+    .button_cart {
         width: 160px;
-        height: 28px;
         font-size: 14px;
+    }
+    .button_cart_plus {
+        width: 120px;
+        margin-left: 30px;
     }
     .tovar h2 {
         font-size: 13px;
+        width: 160px;
     }
 }
