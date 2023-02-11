@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.tovar_container {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.tovar {
+    text-align: center;
+}
+.tovar_container button {
+    width: 350px;
+    height: 50px;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all;
+    transition-property: all;
+    transition-duration: 0.15s;
+}
+.tovar_container button:hover {
+   background-color: rgb(216, 140, 0);
+}
+.tovar_container button:active {
+    background-color: rgb(182, 118, 0);
+}
+.table_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
