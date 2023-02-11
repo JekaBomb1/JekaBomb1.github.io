@@ -6,7 +6,7 @@
 .tovar_container {
     margin-top: 10px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif; */
     padding-right: 15px;
     padding-left: 15px;
     display: grid;
