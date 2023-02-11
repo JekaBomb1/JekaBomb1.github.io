@@ -82,7 +82,7 @@
 }
 @media (max-width: 600px) {
     .tovar img {
-        width: 200px;
+        width: 230px;
     }
     .tovar_container button {
         width: 200px;
@@ -96,7 +96,7 @@
 }
 @media (max-width: 500px) {
     .tovar img {
-        width: 150px;
+        width: 180px;
     }
     .tovar_container {
         grid-template-columns: 200px 200px;
