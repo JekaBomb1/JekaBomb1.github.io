@@ -17,6 +17,8 @@
     justify-content: flex-end;
     margin-bottom: 25px;
     align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .tovar h2 {
     margin-top: 5px;
@@ -63,6 +65,9 @@
     z-index: 0;
     margin-left: 1px;
 }
+.button_text {
+    padding-top: 5px;
+}
 .table_container {
     width: 100%;
     display: flex;
@@ -92,6 +97,10 @@
     .tovar h2 {
         width: 250px;
     }
+    .tovar {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 @media (max-width: 900px) {
     .tovar_container {
@@ -100,6 +109,10 @@
     .tovar h2 {
         font-size: 17px;
     }
+    .tovar {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
 }
 @media (max-width: 700px) {
     .tovar_container {
@@ -107,6 +120,10 @@
     }
     .tovar h2 {
         font-size: 15px;
+    }
+    .tovar {
+        padding-right: 25px;
+        padding-left: 25px;
     }
 }
 @media (max-width: 600px) {
@@ -133,6 +150,10 @@
     .tovar h2 {
         width: 230px;
     }
+    .tovar {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 @media (max-width: 500px) {
     .tovar img {
@@ -153,6 +174,10 @@
     .tovar h2 {
         font-size: 15px;
         width: 180px;
+    }
+    .tovar {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 @media (max-width: 380px) {

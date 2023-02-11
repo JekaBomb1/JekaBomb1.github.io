@@ -7,7 +7,7 @@ tg.MainButton.onClick('click', function() {
 
 });
 
-let to_cart_btns = document.querySelectorAll(".tovar"); // распологать после показа всех товаров меню
+let to_cart_btns = document.querySelectorAll(".button_cart"); // распологать после показа всех товаров меню
 for (i = 0; i < to_cart_btns.length; i++) {
     to_cart_btns[i].addEventListener("click", function(e) {
         document.getElementById(e.target.id).classList.add("button_cart_plus");
