@@ -45,11 +45,15 @@
     transition-property: all;
     transition-duration: 0.2s;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .button_cart_plus {
     width: 280px;
     margin-left: 70px;
     background-color: rgb(53, 173, 29);
+    font-weight: 900;
 }
 .button_cart_m {
     text-align: center;
@@ -60,13 +64,13 @@
     border-radius: 7px;
     background-color: rgb(243, 81, 41);
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 900;
     position: absolute;
     z-index: 0;
     margin-left: 1px;
-}
-.button_text {
-    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .table_container {
     width: 100%;
